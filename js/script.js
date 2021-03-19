@@ -7,14 +7,11 @@
 
 //Chiedo il numero di chilometri e l'età con 2 prompt
 var km = prompt("Inserisci numero di chilometri da percorrere:");
-console.log(km);
 
 var eta = prompt("Inserisci la tua età: ");
-console.log(eta);
 
 //Calcolo il prezzo del biglietto
 var prezzo = km * 0.21;
-console.log(prezzo);
 
 //Calcolo lo sconto
 var sconto;
@@ -27,11 +24,9 @@ if( eta < 18 ) {
     sconto = 0;
 }
 
-console.log(sconto);
 
 //Applico lo sconto
 var prezzoFinale = prezzo - sconto;
-console.log(prezzoFinale);
 
 //output prezzo biglietto
 
